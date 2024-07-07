@@ -1,0 +1,50 @@
+body{
+    font-family: "Arimo", sans-serif;
+    margin: 0;
+    background-color: rgb(240, 240, 236);
+}
+/* header */
+.header{
+ text-align: center;
+ font-size: 26px;
+}
+span{
+    color: rgb(112, 31, 31);
+}
+/* box */
+.box{
+    display: flex;
+    gap: 2%;
+}
+.boxs{
+    background-color: rgb(241, 230, 215);
+    height: 200px;
+    width: 25%;
+    padding: 3%;
+}
+/* course */
+.course{
+    margin-top: 5%;
+    display: flex;
+    gap: 2%;
+}
+.courses{
+    width: 20%;
+    height: 300px;
+    border-left: 7px solid rgb(112, 31, 31);
+    background-color: rgb(242, 232, 220);
+    box-shadow: 10px 20px 40px grey;
+    border-radius: 10px solid gray;
+    border-radius: 10px; 
+    padding: 1%;
+}
+/* footer */
+footer{
+    background-color: black;
+    color: antiquewhite;
+    height: 100px;
+    width: 100%;
+    margin-top: 5%;
+    padding-top:3%;
+    text-align: center;
+}
